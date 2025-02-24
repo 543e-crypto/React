@@ -1,5 +1,10 @@
+import ListGroup from "./components/ListGroup";
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <div>
+      <ListGroup />
+    </div>
+  );
 }
 
 export default App;
